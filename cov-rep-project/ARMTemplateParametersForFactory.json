@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "cov-rep-project"
+		},
+		"ls_ablob_covidreportingsa_connectionString": {
+			"value": ""
+		},
+		"ls_adls_covidreportingdl_accountKey": {
+			"value": ""
+		},
+		"ls_adls_covidreportingdl_properties_typeProperties_url": {
+			"value": "https://covid19repdl.dfs.core.windows.net/"
+		},
+		"ls_http_data_github_properties_typeProperties_url": {
+			"value": "https://github.com"
+		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/e2cb5bd6-41ed-4270-b8da-23cc6527901b/resourceGroups/covid-report-resgp/providers/Microsoft.Storage/storageAccounts/covidreportingproject183"
+		}
+	}
+}
