@@ -1,0 +1,9 @@
+{
+	"name": "cov-rep-project",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6332f76d-f393-465e-b2a7-5c501ab67588",
+		"tenantId": "34bd8bed-2ac1-41ae-9f08-4e0a3f11706c"
+	}
+}
